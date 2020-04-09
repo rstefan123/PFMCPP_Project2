@@ -121,7 +121,7 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 /*
  1)
  */
-double fileTaxReturn(bool W2, bool TenNinetyNine, float income)
+double fileTaxReturn(bool TenNinetyNine, float income,bool W2 = true)
 {
  ignoreUnused(W2, TenNinetyNine, income);
     return {};
@@ -137,7 +137,7 @@ bool waterBoiling(float temperature, bool boilingPoint)
 /*
  3)
  */
-double measureVoltage(float Voltage)
+double measureVoltage(float Voltage = 3.16f)
 {
     ignoreUnused(Voltage);
     return {};
@@ -145,7 +145,7 @@ double measureVoltage(float Voltage)
 /*
  4)
  */
-bool checkIfHungry(float timeLastEaten, bool stomachGrowl, bool hungry)
+bool checkIfHungry(float timeLastEaten, bool stomachGrowl, bool hungry = true)
 {
     ignoreUnused(timeLastEaten, stomachGrowl, hungry);
     return {};
@@ -153,7 +153,7 @@ bool checkIfHungry(float timeLastEaten, bool stomachGrowl, bool hungry)
 /*
  5)
  */
-bool checkIfTired(float timeWokenUp, int hoursSlept)
+bool checkIfTired(float timeWokenUp, int hoursSlept = 8)
 {
     ignoreUnused(timeWokenUp, hoursSlept);
     return {};
@@ -161,7 +161,7 @@ bool checkIfTired(float timeWokenUp, int hoursSlept)
 /*
  6)
  */
-float measureCap(double capacitance, double ESR, bool shortCircuit, bool open)
+float measureCap(double capacitance, double ESR, bool shortCircuit = false, bool open = false)
 {
     ignoreUnused(capacitance, ESR, shortCircuit, open);
     return {};
@@ -169,7 +169,7 @@ float measureCap(double capacitance, double ESR, bool shortCircuit, bool open)
 /*
  7)
  */
-bool finishCourse(int lessonsCompleted, bool allLessonsDone)
+bool finishCourse(int lessonsCompleted, bool allLessonsDone = false)
 {
     ignoreUnused(lessonsCompleted, allLessonsDone);
     return {};
@@ -177,7 +177,7 @@ bool finishCourse(int lessonsCompleted, bool allLessonsDone)
 /*
  8)
  */
-bool learnSpanish(int lessonsCompleted, bool fluent)
+bool learnSpanish(int lessonsCompleted, bool fluent = false)
 {
     ignoreUnused(lessonsCompleted, fluent);
     return {};
@@ -185,7 +185,7 @@ bool learnSpanish(int lessonsCompleted, bool fluent)
 /*
  9)
  */
-int countCoffeesDrank(bool morningCup, bool afternoonCup, int extraCups)
+int countCoffeesDrank(bool afternoonCup, int extraCups, bool morningCup = true)
 {
     ignoreUnused(morningCup, afternoonCup, extraCups);
     return {};
@@ -193,7 +193,7 @@ int countCoffeesDrank(bool morningCup, bool afternoonCup, int extraCups)
 /*
  10)
  */
-bool checkAmp(bool tubes, bool caps, bool hardware)
+bool checkAmp(bool tubes, bool caps, bool hardware = true)
 {
     ignoreUnused(tubes, caps, hardware);
     return {};

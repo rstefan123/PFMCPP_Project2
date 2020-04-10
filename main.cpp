@@ -121,9 +121,9 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 /*
  1)
  */
-double fileTaxReturn(bool TenNinetyNine, float income,bool W2 = true)
+double fileTaxReturn(bool tenNinetyNine, float income,bool W2 = true)
 {
- ignoreUnused(W2, TenNinetyNine, income);
+    ignoreUnused(W2, tenNinetyNine, income);
     return {};
 }
 /*
@@ -137,9 +137,9 @@ bool waterBoiling(float temperature, bool boilingPoint)
 /*
  3)
  */
-double measureVoltage(float Voltage = 3.16f)
+double measureVoltage(float voltage = 3.16f)
 {
-    ignoreUnused(Voltage);
+    ignoreUnused(voltage);
     return {};
 }
 /*
@@ -198,22 +198,6 @@ bool checkAmp(bool tubes, bool caps, bool hardware = true)
     ignoreUnused(tubes, caps, hardware);
     return {};
 }
-
-/* default values for functions step 4 */
-
-void variableDeclarations2()
-{
-    double capacitance = .0000022;
-    float temperature = 100;
-    bool W2 = true;
-    float voltage = 3.16f;
-
-    ignoreUnused(capacitance, temperature, W2, voltage);
-}
-
-
-
-
 
 int main()
 {
